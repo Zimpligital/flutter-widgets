@@ -67,6 +67,8 @@
 # Web related
 **/web/**/lib/generated_plugin_registrant.dart
 
+**/.fvm
+
 # Service account files
 svc-keyfile.json
 

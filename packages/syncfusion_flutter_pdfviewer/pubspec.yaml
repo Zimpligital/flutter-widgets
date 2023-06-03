@@ -4,8 +4,8 @@ version: 21.1.35
 homepage: https://github.com/syncfusion/flutter-widgets/tree/master/packages/syncfusion_flutter_pdfviewer
 
 environment:
-  sdk: '>=2.17.0 <3.0.0'
-  flutter: ">=1.20.0"
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.10.0"
 
 flutter:
   # This section identifies this Flutter project as a plugin project.
@@ -34,7 +34,7 @@ dependencies:
   async: ^2.5.0
   http: ^0.13.0
   uuid: ^3.0.5
-  device_info_plus: ^8.1.0
+  device_info_plus: ^9.0.0
   intl: ">=0.17.0 <0.20.0"
 
   syncfusion_pdfviewer_platform_interface: ^21.1.35
