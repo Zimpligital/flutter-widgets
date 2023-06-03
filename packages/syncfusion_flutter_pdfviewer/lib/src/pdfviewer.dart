@@ -3754,7 +3754,7 @@ class SfPdfViewerState extends State<SfPdfViewer> with WidgetsBindingObserver {
 ///  }
 ///}
 /// ```
-class PdfViewerController extends ChangeNotifier with _ValueChangeNotifier {
+class PdfViewerController extends _ValueChangeNotifier with ChangeNotifier  {
   /// Zoom level
   double _zoomLevel = 1;
 
@@ -4579,7 +4579,7 @@ class PdfViewerController extends ChangeNotifier with _ValueChangeNotifier {
 }
 
 /// PdfTextSearchResult holds the details of TextSearch
-class PdfTextSearchResult extends ChangeNotifier with _ValueChangeNotifier {
+class PdfTextSearchResult extends _ValueChangeNotifier with ChangeNotifier {
   /// Current instance number of the searched text.
   int _currentInstanceIndex = 0;
 
